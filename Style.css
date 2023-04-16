@@ -1,0 +1,120 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* GLOBAL */
+.container{
+    width: 70%;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+.btn{
+    color: #002146;
+    background-color: #fdc800;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 30px;
+    font-weight: 700;
+}
+
+/* HEADER */
+.logo{
+    text-align: center;
+    font-size: 36px;
+}
+.logo i{
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 15px;
+    font-weight: 400;
+    vertical-align: bottom;
+    color: #fdc800;
+    display: inline-block;
+    background-color: #002146;
+    border-radius: 50%;
+}
+.logo span{
+    color: black;
+    font-weight: 700;
+    font-size: 26px;
+}
+.nav{
+    margin: 20px;
+}
+.nav a{
+    margin-right: 30px;
+    color: #1b1d2d;
+    font-weight: 500;
+}
+/* BANNER */
+.banner{
+    background-image: url(./images/2.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+/* INTRO */
+.intro{
+    padding: 50px 0;
+}
+.intro__left, .intro__right{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.intro__left{
+    padding-right: 60px;
+}
+.intro__left h1{
+    margin: 5px 0;
+    font-weight: 700;
+    color: #1b1d2d;
+}
+.intro__left p{
+    color: #7d7d7d;
+    padding: 20px 0;
+}
+.intro__right img{
+    width: 100%;
+}
+
+/* ACHIEVE */
+.achieve {
+    background-color: #f6f6f6;
+    padding: 60px 0;
+}
+.achieve__item{
+    float: left;
+    width: 25%;
+}
+.achieve__item h1{
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-size: 43px;
+    line-height: 40px;
+    margin-right: 10px;
+    font-weight: 700;
+    color: #212529;
+}
+.achieve__item p{
+    color: #212529;
+    font-weight: 500;
+}
+
+/* MENU */
+
+/* INFO */
+
+/* FOOTER */
