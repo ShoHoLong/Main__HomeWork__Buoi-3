@@ -114,6 +114,31 @@
 }
 
 /* MENU */
+.menu{
+    padding: 100px 0;
+}
+.menu > .container{
+    width: 72%;
+}
+.menu__top {
+    margin-bottom: 30px;
+}
+.menu__item{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 0 15px;
+}
+.menu__content{
+    background-color: #002146;
+    border-radius: 5px;
+    color: white;
+    padding: 36px 60px;
+}
+.menu__content i{
+    font-size: 36px;
+    margin-bottom: 16px;
+}
 
 /* INFO */
 
